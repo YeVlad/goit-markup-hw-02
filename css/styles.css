@@ -1,18 +1,18 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo-word {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-}
-.logo-word .logo-piece {
   color: #4d5ae5;
 }
 .logo-word .logo-piece-up {
@@ -43,13 +43,25 @@ nav .link {
   letter-spacing: 0.32px;
 }
 
+nav .link:hover,
+nav .link:focus {
+  color: #404bbf;
+}
+
+address {
+  font-style: normal;
+}
 address .contact {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+address .contact:hover,
+address .contact:focus {
+  color: #404bbf;
 }
 
 /***********/
@@ -65,7 +77,7 @@ h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -80,7 +92,6 @@ h3 {
 }
 
 p {
-  color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -88,32 +99,44 @@ p {
   letter-spacing: 0.32px;
 }
 
-.hero {
-  background-color: #2e2f42;
+.hero-text {
   color: #fff;
   text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
-.hero-button {
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+.hero {
+  background-color: #2e2f42;
+}
 
+.hero-button {
+  background: #4d5ae5;
+  font-family: Roboto, sans-serif;
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .team-list {
   background-color: #f4f4fd;
+}
+.team-list > ul > li {
+  background-color: #ffffff;
+}
+.team-list .profesional {
+  font-size: 16px;
 }
 
 /***********/
