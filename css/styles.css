@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto;
+}
+
 .logo-word {
   font-family: Raleway;
   font-size: 18px;
@@ -32,7 +36,6 @@ a {
 
 nav .link {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -42,7 +45,6 @@ nav .link {
 
 address .contact {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -60,7 +62,6 @@ main {
 h2 {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +72,6 @@ h2 {
 
 h3 {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -81,7 +81,6 @@ h3 {
 
 p {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -93,7 +92,6 @@ p {
   background-color: #2e2f42;
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -107,7 +105,6 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   color: #fff;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -128,7 +125,6 @@ footer {
 
 footer > p {
   color: #f4f4fd;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
