@@ -129,10 +129,10 @@ p {
   background-color: #404bbf;
 }
 
-.team-list {
+.team {
   background-color: #f4f4fd;
 }
-.team-list > ul > li {
+.worker {
   background-color: #ffffff;
 }
 .team-list .profesional {
