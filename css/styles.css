@@ -15,17 +15,14 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo-word .logo-piece-up {
+.logo-piece-up {
   color: #2e2f42;
 }
-.logo-word .logo-piece-down {
+.logo-piece-down {
   color: #f4f4fd;
 }
 
 /*Header*/
-header {
-  background-color: #ffffff;
-}
 
 ul {
   list-style: none;
@@ -34,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-nav .link {
+.nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
@@ -43,15 +40,15 @@ nav .link {
   letter-spacing: 0.32px;
 }
 
-nav .link:hover,
-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
 address {
   font-style: normal;
 }
-address .contact {
+.contact {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -59,44 +56,16 @@ address .contact {
   letter-spacing: 0.32px;
 }
 
-address .contact:hover,
-address .contact:focus {
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
 
 /***********/
 
 /*Main*/
-main {
-  background-color: #ffffff;
-}
-
-h2 {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-p {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+.hero {
+  background-color: #2e2f42;
 }
 
 .hero-text {
@@ -107,10 +76,6 @@ p {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-}
-
-.hero {
-  background-color: #2e2f42;
 }
 
 .hero-button {
@@ -129,14 +94,45 @@ p {
   background-color: #404bbf;
 }
 
+.advantages,
+.team-list,
+.portfolio {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.mini-topic,
+.human-worker,
+.name-thing {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.exp-text,
+.profesional,
+.portfolio-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
 .team {
   background-color: #f4f4fd;
 }
 .worker {
   background-color: #ffffff;
-}
-.team-list .profesional {
-  font-size: 16px;
 }
 
 /***********/
@@ -146,7 +142,7 @@ footer {
   background-color: #2e2f42;
 }
 
-footer > p {
+.down-text {
   color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
